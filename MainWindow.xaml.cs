@@ -15,9 +15,6 @@ using System.Windows.Shapes;
 
 namespace Timinger_Cosmin_Ianis_Lab2
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private int mRaisedGlazed;
@@ -28,7 +25,6 @@ namespace Timinger_Cosmin_Ianis_Lab2
         private DoughnutMachine myDoughnutMachine;
         private void frmMain_Loaded(object sender, RoutedEventArgs e)
         {
-            //Tema de laborator – instantiem un obiect din clasa DougnutMachine
             myDoughnutMachine = new DoughnutMachine();
             myDoughnutMachine.DoughnutComplete += new DoughnutMachine.DoughnutCompleteDelegate(DoughnutCompleteHandler);
         }
@@ -40,7 +36,6 @@ namespace Timinger_Cosmin_Ianis_Lab2
         }
         private void sugarToolStripMenuItem_Click(object sender, RoutedEventArgs e)
         {
-            // Tema de laborator – completam cu instructiunile necesare
             sugarToolStripMenuItem.IsChecked = true;
             glazedToolStripMenuItem.IsChecked = false;
             myDoughnutMachine.MakeDoughnuts(DoughnutType.Sugar);
@@ -58,8 +53,6 @@ namespace Timinger_Cosmin_Ianis_Lab2
                     mRaisedSugar++;
                     txtSugarRaised.Text = mRaisedSugar.ToString();
                     break;
-                //...
-                // Tema de laborator – completam cu instructiunile necesare
                 case DoughnutType.Chocolate:
                     mFilledChocolate++;
                     txtChocolateFilled.Text = mFilledChocolate.ToString();
