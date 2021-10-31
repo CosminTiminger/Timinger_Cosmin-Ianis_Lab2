@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timinger_Cosmin-Ianis_Lab2", "Timinger_Cosmin-Ianis_Lab2.csproj", "{4A0BCE13-5215-4A5C-8F2B-A3C0A4E3D8D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timinger_Cosmin-Ianis_Lab2", "Timinger_Cosmin-Ianis_Lab2.csproj", "{4A0BCE13-5215-4A5C-8F2B-A3C0A4E3D8D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
